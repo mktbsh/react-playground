@@ -1,0 +1,14 @@
+{
+  "name": "core",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\""
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-custom": "workspace:*",
+    "typescript": "latest"
+  }
+}
