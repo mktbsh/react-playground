@@ -46,6 +46,7 @@ importers:
       '@types/node': ^17.0.12
       '@types/react': ^18.0.22
       '@types/react-dom': ^18.0.7
+      core: workspace:*
       eslint-config-custom: workspace:*
       next: latest
       react: ^18.2.0
@@ -54,6 +55,7 @@ importers:
       typescript: latest
       ui: workspace:*
     dependencies:
+      core: link:../../packages/core
       next: 13.3.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -68,18 +70,12 @@ importers:
 
   packages/core:
     specifiers:
-      '@types/react': ^18.0.22
-      '@types/react-dom': ^18.0.7
       eslint: latest
       eslint-config-custom: workspace:*
-      react: ^18.2.0
       typescript: latest
     devDependencies:
-      '@types/react': 18.0.25
-      '@types/react-dom': 18.0.9
       eslint: 8.39.0
       eslint-config-custom: link:../eslint-config-custom
-      react: 18.2.0
       typescript: 5.0.4
 
   packages/eslint-config-custom:
