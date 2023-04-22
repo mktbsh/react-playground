@@ -1,14 +1,6 @@
-# Turborepo starter
+# React Playground
 
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+試験的実装置き場
 
 ## What's inside?
 
